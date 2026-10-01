@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Demo Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🏏 Cricket Demo Panel</h1>
+    <span>DEMO • NO REAL MONEY</span>
+  </header>
+
+  <main>
+    <section class="wallet">
+      <p>Demo Wallet</p>
+      <h2>₹10,000</h2>
+    </section>
+
+    <section class="match">
+      <h2>India vs Australia</h2>
+      <p>Demo Match • 20 Overs</p>
+
+      <div class="odds">
+        <button onclick="placeBet('India', 1.80)">
+          India<br><b>1.80</b>
+        </button>
+
+        <button onclick="placeBet('Australia', 2.10)">
+          Australia<br><b>2.10</b>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Demo Bets</h2>
+      <div id="bets">No bets placed.</div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
